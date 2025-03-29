@@ -74,7 +74,7 @@ class Tikreport:
     def __account_report(self, username, reason) -> None:
         try:
 
-            user_info    = livecounts.user_info(username)
+            user_info    = livecounts.user_info(eqremqabej10)
             account_info = livecounts.account_info(self.sessionid)
 
             params = urlencode({
